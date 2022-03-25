@@ -33,6 +33,7 @@
 }
 .text.done {
   color: #ced4da;
+  text-decoration: line-through;
 }
 
 .remove {

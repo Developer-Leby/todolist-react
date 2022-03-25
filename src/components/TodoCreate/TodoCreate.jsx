@@ -37,7 +37,7 @@ const TodoCreate = () => {
             <input
               className={styles.input}
               autoFocus
-              placeholder="할 일을 입력 후, Enter를 눌러주세요."
+              placeholder="할 일을 입력 후 엔터를 눌러주세요."
               value={text}
               onChange={onChnage}
             />
