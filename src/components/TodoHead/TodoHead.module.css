@@ -1,0 +1,25 @@
+@value todoBackground, todoBlack, todoGrey, todoPrimary from '../../common/colors.css';
+
+.todoHeadBlock {
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid todoBackground;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: todoBlack;
+}
+.day {
+  margin-top: 4px;
+  color: todoGrey;
+  font-size: 21px;
+}
+.tasksLeft {
+  color: todoPrimary;
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: bold;
+}
