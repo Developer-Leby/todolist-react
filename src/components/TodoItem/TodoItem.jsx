@@ -8,7 +8,7 @@ const TodoItem = ({ id, done, text }) => {
       <div className={`${styles.checkCircle} ${done && styles.done}`}>
         {done && <MdDone />}
       </div>
-      <span className={`${styles.text} ${done && styles.done}`}>{text}</span>
+      <div className={`${styles.text} ${done && styles.done}`}>{text}</div>
       <div className={styles.remove}>
         <MdDelete />
       </div>
